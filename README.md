@@ -11,14 +11,14 @@ I started using **calcurse** to maintain my class time table. It is a beautiful 
 
 # Procedure
 
-## Adding Timetable
+#### Adding Timetable
 
 * Added each class as a recurring event in calcurse with the title having the class name and the class url as follows
 ```
 Topology <Tab Space> https://meet.google.com/url123
 ```
 
-## Setting up script to open url
+#### Setting up script to open url
 * Now when I run calcurse --next from the command line I get output as follows
 ```
 $ calcurse --next                                                
@@ -46,7 +46,7 @@ fi
 ```
 Save this as an executable somewhere
 
-## Configuring Calcurse to run the script
+#### Configuring Calcurse to run the script
 Now all that is left to do is to configure calcurse to run this script 15 seconds before the event starts. 
 * Add the following lines to calcurse config file (~/.cache/calcurse/conf).
 ```
